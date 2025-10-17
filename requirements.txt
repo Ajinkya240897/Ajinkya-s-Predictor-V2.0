@@ -1,39 +1,13 @@
-# ============================================================
-# Ajinkya's Predictor V2.0 - Complete Requirements
-# Stable, optimized, and compatible with latest Streamlit builds
-# ============================================================
-
-# Core essentials
 streamlit>=1.36.0
 pandas>=2.2.2
-numpy>=1.26.4
+numpy>=1.23.0
 requests>=2.31.0
-
-# Financial data source (Yahoo Finance)
 yfinance>=0.2.40
-
-# Statistical & time series analysis
 statsmodels>=0.14.2
 scikit-learn>=1.4.2
-
-# Sentiment analysis (used for genuine sentiment evaluation)
 vaderSentiment>=3.3.2
-
-# Visualization library (for metric charts)
 altair>=5.3.0
-
-# Utilities for smooth computation and stability
 tqdm>=4.66.4
 cachetools>=5.3.3
-
-# Optional but recommended: improves numeric precision, matrix ops
 numba>=0.59.1
-
-# Optional but helpful (handles timezone conversions safely)
 pytz>=2024.1
-
-# ============================================================
-# Tested under Python 3.9 – 3.12
-# Run installation with:
-#    pip install -r requirements.txt
-# ============================================================
